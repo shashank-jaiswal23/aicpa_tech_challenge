@@ -39,7 +39,7 @@ function parseLogFile(filePath: string) {
 function sortAndFormat(counts: any, label: string) {
   //console.log("Sorting for label-----", label);
   let arr = Object.entries(counts);
-  console.log("arr", arr);
+  //console.log("arr", arr);
   arr.sort((a: any, b: any) => b[1] - a[1]);
 
   const result: string[] = [];
